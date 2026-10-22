@@ -1,0 +1,4 @@
+# ruff check . : vraies erreurs seulement (règles par défaut : syntaxe, noms non définis, imports inutiles),
+# notebooks compris. Aucune CI ici : à lancer avant de pousser un nouveau notebook.
+target-version = "py312"
+extend-include = ["*.ipynb"]
